@@ -1,8 +1,14 @@
 [package]
-name = "geojson_vt"
+name = "geojsonvt"
 version = "0.1.0"
 edition = "2024"
-
+license = "MIT OR Apache-2.0"
+repository = "https://github.com/GeoPanic/geojsonvt"
+homepage = "https://github.com/GeoPanic/geojsonvt"
+authors = ["Lihao"]
+description = "A Rust library for slicing GeoJSON data into vector tile on the fly."
+keywords = ["vector tiles", "GeoJSON", "slicing", "GIS"]
+exclude = ["test", "examples"]
 [dependencies]
 geojson = "0.24.2"
 serde_json = { version = "1", features = ["float_roundtrip"] }

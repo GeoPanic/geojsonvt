@@ -10,8 +10,8 @@ use crate::types::VtPoint;
 ///
 /// # Examples
 /// ```ignore
-/// use geojson_vt::simplify::simplify;
-/// use geojson_vt::types::VtPoint;
+/// use geojsonvt::simplify::simplify;
+/// use geojsonvt::types::VtPoint;
 ///
 /// let mut points = vec![
 ///     VtPoint::new(0.0, 0.0, 0.0),

@@ -3,7 +3,7 @@ use geojson::feature::Id;
 use geojson::{
     Feature, FeatureCollection, GeoJson, Geometry, JsonValue, PointType, PolygonType, Position,
 };
-use geojson_vt::{self, GeoJSONVT, Options};
+use geojsonvt::{GeoJSONVT, Options};
 use serde_json::{Number, Value};
 use std::collections::HashMap;
 use std::f64::consts::PI;

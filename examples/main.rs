@@ -1,5 +1,5 @@
 use geojson::GeoJson;
-use geojson_vt::{GeoJSONVT, Options};
+use geojsonvt::{GeoJSONVT, Options};
 use std::fs;
 use std::str::FromStr;
 use std::time::Instant;

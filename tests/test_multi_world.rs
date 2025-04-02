@@ -1,5 +1,5 @@
 use geojson::{Feature, FeatureCollection, GeoJson, Geometry, Value};
-use geojson_vt::{GeoJSONVT, Options, VtGeometry, VtPoint};
+use geojsonvt::{GeoJSONVT, Options, VtGeometry, VtPoint};
 #[test]
 fn test_multi_world() {
     let left_point = GeoJson::Feature(Feature {
